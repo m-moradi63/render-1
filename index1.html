@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a7ba74ec2b.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+   <!--  <style type="text/tailwindcss" >
+        @layer components{
+        .todo-list {
+            @apply  mt-2;
+        }
+        .todoListItem {
+            @apply h-10 rounded-lg p-2 mt-1 flex justify-between;
+        }  
+        .todoListItem__todo {
+            @apply bg-gray-100;
+        } 
+        .todoListItem__done {
+            @apply bg-green-100;
+        }
+    }
+    
+    </style>
+     -->
+    <title>to do list app</title>
+</head>
+<body class="bg-gray-200">
+    <header><H1 class="text-center text-xl font-bold">MY TO DO APP</H1></header>
+    <main>
+        <section id="app" class="bg-gray-80 rounded-md mx-auto shadow  w-1/2 ">
+            <form id="create-todo" name="create-todo" class=" p-3 bg-white flex ">
+                <input placeholder="please enter item" type="to do item" name="todoitem" id="todoitemtext" 
+                class="mr-2  grow  rounded-xl bg-gray-100 w-20  p-2">
+                <button type="button" class=""><i 
+                    class="fa-sharp fa-solid fa-plus  w-20  bg-blue-100 p-2 rounded-xl pl-5" ></i> </button>
+            </form>
+            <ul id="todo-list" class="todo-list">
+                <!-- <li class=" h-10 rounded-lg bg-gray-100 p-2 mt-1 flex justify-between">
+                    <p>do some task</p>
+                    <div><span class="fa fa-minus-circle text-red-500"></span>
+                        <span class="fa fa-check-circle text-green-500"></span>
+                    </div>
+                    
+                </li>
+                <li class=" h-10 rounded-lg bg-green-100 p-2 mt-1 flex justify-between">
+                    <p class="line-through">do another task</p>
+                    <div><span class="fa fa-minus-circle text-red-500"></span>
+                        <span class="fa fa-check-circle text-green-500"></span>
+                    </div>
+                    
+                </li>    -->            
+            </ul>
+        </section>
+        
+    </main>
+    <script src="/wayonerender.js"></script>
+</body>
+</html>
